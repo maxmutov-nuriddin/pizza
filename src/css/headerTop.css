@@ -1,0 +1,65 @@
+.header__top-nav-item {
+  color: var(--Black, #191919);
+  text-align: right;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+.after__img::before {
+  content: "";
+  margin-right: 8px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../assets/Location.svg');
+  background-repeat: no-repeat;
+}
+
+.after__img::after {
+  content: "";
+  margin-left: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 15px;
+  height: 10px;
+  background-image: url('../assets/Left_Arrow_4_.svg');
+  background-repeat: no-repeat;
+}
+
+.after__imgs::before {
+  content: "";
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../assets/Group_108.svg');
+  background-repeat: no-repeat;
+}
+
+.header__top {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+@media only screen and (max-width: 904px) {
+  .header__top-nav-time {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .header__top-nav-address {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 521px) {
+  .header__top-nav-log {
+    display: none;
+  }
+}

@@ -1,0 +1,39 @@
+.new__content {
+  background-color: #FF7010;
+  height: 343px;
+  border-radius: 12px 12px 12px 12px;
+  -webkit-border-radius: 12px 12px 12px 12px;
+  -moz-border-radius: 12px 12px 12px 12px;
+  -ms-border-radius: 12px 12px 12px 12px;
+  -o-border-radius: 12px 12px 12px 12px;
+}
+
+.new__contents {
+  border-radius: 12px 12px 12px 12px;
+  background-color: #E23535;
+  height: 343px;
+}
+
+.new__image {
+  border-radius: 12px 12px 12px 12px;
+  width: 100%;
+}
+
+.new__text {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+@media only screen and (max-width: 1327px) {
+  .new__container {
+    flex-wrap: wrap;
+  }
+
+  .new__contents {
+    padding: 0;
+  }
+}

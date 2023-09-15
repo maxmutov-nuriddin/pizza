@@ -1,0 +1,49 @@
+.header__nav-links {
+  padding: 8px 16px;
+  color: var(--White, #FFF);
+  text-align: center;
+  font-family: SF Pro Text;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  border-radius: 4px;
+  background: var(--Primary, #FF7010);
+}
+
+.header__nav-links::before {
+  content: "";
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 25px;
+  height: 22px;
+  background-image: url('../assets/Group_94.svg');
+  background-repeat: no-repeat;
+}
+
+.header__bottom {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.block {
+  display: block;
+  display: flex;
+}
+
+.none {
+  display: none;
+}
+
+.fix {
+  top: 0;
+  padding-top: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+.category__links:hover {
+  .category__title:hover {
+    color: var(--Red, #E23535);
+  }
+}

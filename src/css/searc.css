@@ -1,0 +1,49 @@
+.location {
+  border-radius: 8px;
+  border: 1px solid var(--Line-gray, #F0F0F0);
+  background: var(--White, #FFF);
+}
+
+.location__title {
+  color: var(--Black, #191919);
+  font-family: SF Pro Text;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.location__button {
+  padding: 13px 32px;
+  color: #FFF;
+  font-family: SF Pro Text;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  border-radius: 6px;
+  background: var(--Primary, #FF7010);
+  border: none;
+}
+
+.location__input {
+  width: 70%;
+  border-radius: 6px;
+  border: 1px solid var(--Line-gray, #F0F0F0);
+  background: #FFF;
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 1194px) {
+  .hidden {
+    display: block;
+    text-align: center;
+  }
+
+  .see {
+    display: none;
+  }
+}

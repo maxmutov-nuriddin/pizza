@@ -1,0 +1,41 @@
+.footer__list-tel::before {
+  content: "";
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 25px;
+  height: 22px;
+  background-image: url('../assets//tell.svg');
+  background-repeat: no-repeat;
+}
+
+.footer__list-address::before {
+  content: "";
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 25px;
+  height: 22px;
+  background-image: url('../assets/loc.svg');
+  background-repeat: no-repeat;
+}
+.footer__social-face::before {
+  content: "";
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 25px;
+  height: 22px;
+  background-image: url('../assets/faec.svg');
+  background-repeat: no-repeat;
+}
+.footer__social-instagram::before {
+  content: "";
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 25px;
+  height: 22px;
+  background-image: url('../assets/insta.svg');
+  background-repeat: no-repeat;
+}
