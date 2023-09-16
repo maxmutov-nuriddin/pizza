@@ -33,17 +33,14 @@ const SeelPage = () => {
       newCart = values.map((el) => {
         if (el.id === id) {
           if (el.quantity < 2) {
-            // Удаление элемента из корзины
             return null;
           } else {
-            // Обновление значения quantity
             return { ...el, quantity: el.quantity - 1 };
           }
         }
         return el;
       });
 
-      // Фильтрация удаленных элементов (со значением null)
       newCart = newCart.filter((el) => el !== null);
     } else {
       newCart = [...values, { ...product, quantity: 1 }];
